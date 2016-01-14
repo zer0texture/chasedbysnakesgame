@@ -1,0 +1,162 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-define:UNITY_5_2_1
+-define:UNITY_5_2
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_REFLECTION_BUFFERS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+Assets/CollectScipt.cs
+Assets/CollectablesScript.cs
+"Assets/Custom Prefabs/Player/DoorScript.cs"
+"Assets/Custom Prefabs/Player/InGameMenu.cs"
+"Assets/Custom Prefabs/Player/LoadSave.cs"
+"Assets/Custom Prefabs/Player/PlayerController.cs"
+"Assets/Custom Prefabs/Player/buttonScript.cs"
+"Assets/Custom Prefabs/Player/cameraMovement1.cs"
+"Assets/Custom Prefabs/Player/cameraV3.cs"
+"Assets/Custom Prefabs/Player/collisionDetection.cs"
+"Assets/Custom Prefabs/Player/gravity.cs"
+"Assets/Custom Prefabs/Player/lantern.cs"
+"Assets/Custom Prefabs/Player/playerMovementController.cs"
+"Assets/Custom Prefabs/Player/playerSave.cs"
+Assets/GameSaveManager.cs
+Assets/KeyScript.cs
+"Assets/Levels/Level - Dungeon/Hunt.cs"
+"Assets/Levels/Level - Dungeon/HuntAi.cs"
+"Assets/Levels/Level - Dungeon/MoveTo.cs"
+"Assets/Levels/Level - Dungeon/NoSnakes.cs"
+"Assets/Levels/Level - Dungeon/SpawnSnake.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/FOVKick.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/FPSCounter.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/FollowTarget.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/ForcedReset.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/WaypointProgressTracker.cs"
+"Assets/Levels/Level - Dungeon/Standard Assets/Utility/playerMovement.cs"
+"Assets/Levels/Level - Dungeon/nav.cs"
+Assets/Levels/Level-Menu/MainMenu.cs
+Assets/Levels/Level-Menu/Sliders/SliderController.cs
+Assets/Levels/Level-Menu/Sliders/UISlider.cs
+Assets/Levels/Level-Menu/hoverColourChange.cs
+Assets/Levels/Level-Options/Options_Text.cs
+Assets/Materials/shaders/ShaderPackage/CustomEdgeDetect.cs
+Assets/Materials/shaders/ShaderPackage/PostProcessFilter.cs
+Assets/PlayerInventory.cs
+Assets/PlayerSpawner.cs
+Assets/StoryTrigger.cs
+Assets/TextMessageHandler.cs
+Assets/TrapFloor.cs
+Assets/cameraTarget.cs
+Assets/cameraV2.cs
+Assets/hideZone.cs
+Assets/lanternRefill.cs
+Assets/trapTrigger.cs
+Assets/verticalOrbit.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

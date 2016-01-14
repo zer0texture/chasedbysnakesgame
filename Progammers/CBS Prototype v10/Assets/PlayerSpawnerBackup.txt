@@ -1,0 +1,39 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class PlayerSpawner : MonoBehaviour {
+    public static Rigidbody playerInst = null;
+
+    bool playerSpawned = false;
+    public Rigidbody playerPrefab;
+    public Rigidbody cameraPrefab;
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        if (!playerSpawned)
+        {
+            playerSpawned = true;
+            playerInst = Instantiate(playerPrefab, transform.position, transform.rotation) as Rigidbody;          
+            playerInst.name = "loadedPlayer";
+
+
+            Vector3 cameraPos = new Vector3(0,2.0f,-4f);
+            cameraPos += transform.position;
+            Rigidbody cameraInst = Instantiate(cameraPrefab, cameraPos, transform.rotation) as Rigidbody;
+            cameraV3 myCam = cameraInst.GetComponent<cameraV3>();
+            myCam.targetPos = playerInst.transform.FindChild("cameraPosition").transform;
+
+
+            myCam.player = playerInst.transform.FindChild("cameraTarget").transform;
+           
+            
+
+            
+        }
+	
+	}
+}
