@@ -1,0 +1,11 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-3-11728
+Cmd: getPlatforms
+Cmd: compileSnippet
+  error: 2 plat 8 at (212): Too many math instructions for SM2.0 (65 needed, max is 64). Try #pragma target 3.0\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=5946 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
+
+
+Quitting shader compiler process

@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: fd3bfff6f6b137f45b64d2216c528be2
+timeCreated: 1448541180
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Bone013
+    100026: Bone014
+    100028: Bone015
+    100030: Bone016
+    100032: Bone017
+    100034: Bone018
+    100036: Bone019
+    100038: Bone020
+    100040: Bone021
+    100042: Bone022
+    100044: Bone023
+    100046: Bone024
+    100048: Bone025
+    100050: Bone026
+    100052: Bone027
+    100054: Bone028
+    100056: Bone029
+    100058: Bone030
+    100060: Bone031
+    100062: Bone032
+    100064: Bone033
+    100066: IK Chain001
+    100068: Line004
+    100070: Point001
+    100072: Point002
+    100074: Point003
+    100076: Point004
+    100078: Point005
+    100080: Point006
+    100082: Point007
+    100084: Point008
+    100086: Point009
+    100088: Point010
+    100090: Point011
+    100092: Point012
+    100094: Point013
+    100096: Point014
+    100098: Point015
+    100100: Point016
+    100102: Point017
+    100104: Point018
+    100106: Point019
+    100108: Point020
+    100110: Point021
+    100112: Point022
+    100114: Point023
+    100116: Point024
+    100118: Point025
+    100120: Point026
+    100122: Point027
+    100124: Point028
+    100126: Point029
+    100128: Point030
+    100130: Point031
+    100132: Point032
+    100134: Point033
+    100136: Point034
+    100138: Point035
+    100140: Point036
+    100142: Point037
+    100144: Point038
+    100146: Point039
+    100148: Point040
+    100150: Point041
+    100152: Point042
+    100154: Point043
+    100156: Point044
+    100158: Point045
+    100160: Point046
+    100162: Point047
+    100164: Point048
+    100166: Point049
+    100168: Point050
+    100170: Point051
+    100172: Point052
+    100174: Point053
+    100176: Point054
+    100178: Point055
+    100180: Point056
+    100182: Point057
+    100184: Point058
+    100186: Point059
+    100188: Point060
+    100190: Point061
+    100192: Point062
+    100194: Point063
+    100196: Point064
+    100198: Point065
+    100200: Point066
+    100202: Point067
+    100204: Point068
+    100206: Point069
+    100208: Point070
+    100210: Point071
+    100212: Point072
+    100214: Point073
+    100216: Point074
+    100218: Point075
+    100220: Point076
+    100222: Point077
+    100224: Point078
+    100226: Point079
+    100228: Point080
+    100230: Point081
+    100232: Point082
+    100234: Point083
+    100236: Point084
+    100238: Point085
+    100240: Point086
+    100242: Point087
+    100244: Point088
+    100246: Point089
+    100248: Point090
+    100250: Point091
+    100252: Point092
+    100254: Point093
+    100256: Point094
+    100258: Point095
+    100260: Point096
+    100262: Point097
+    100264: Point098
+    100266: Point099
+    100268: Point100
+    100270: Point101
+    100272: Point102
+    100274: Point103
+    100276: Point104
+    100278: Point105
+    100280: Point106
+    100282: Point107
+    100284: Point108
+    100286: Point109
+    100288: Point110
+    100290: Point111
+    100292: Point112
+    100294: Point113
+    100296: Point114
+    100298: Point115
+    100300: Point116
+    100302: Point117
+    100304: Point118
+    100306: Point119
+    100308: Point120
+    100310: Point121
+    100312: Point122
+    100314: Point123
+    100316: Point124
+    100318: Point125
+    100320: Point126
+    100322: Point127
+    100324: Point128
+    100326: Point129
+    100328: Point130
+    100330: Point131
+    100332: Point132
+    100334: Point133
+    100336: Point134
+    100338: Point135
+    100340: snake
+    100342: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Bone013
+    400026: Bone014
+    400028: Bone015
+    400030: Bone016
+    400032: Bone017
+    400034: Bone018
+    400036: Bone019
+    400038: Bone020
+    400040: Bone021
+    400042: Bone022
+    400044: Bone023
+    400046: Bone024
+    400048: Bone025
+    400050: Bone026
+    400052: Bone027
+    400054: Bone028
+    400056: Bone029
+    400058: Bone030
+    400060: Bone031
+    400062: Bone032
+    400064: Bone033
+    400066: IK Chain001
+    400068: Line004
+    400070: Point001
+    400072: Point002
+    400074: Point003
+    400076: Point004
+    400078: Point005
+    400080: Point006
+    400082: Point007
+    400084: Point008
+    400086: Point009
+    400088: Point010
+    400090: Point011
+    400092: Point012
+    400094: Point013
+    400096: Point014
+    400098: Point015
+    400100: Point016
+    400102: Point017
+    400104: Point018
+    400106: Point019
+    400108: Point020
+    400110: Point021
+    400112: Point022
+    400114: Point023
+    400116: Point024
+    400118: Point025
+    400120: Point026
+    400122: Point027
+    400124: Point028
+    400126: Point029
+    400128: Point030
+    400130: Point031
+    400132: Point032
+    400134: Point033
+    400136: Point034
+    400138: Point035
+    400140: Point036
+    400142: Point037
+    400144: Point038
+    400146: Point039
+    400148: Point040
+    400150: Point041
+    400152: Point042
+    400154: Point043
+    400156: Point044
+    400158: Point045
+    400160: Point046
+    400162: Point047
+    400164: Point048
+    400166: Point049
+    400168: Point050
+    400170: Point051
+    400172: Point052
+    400174: Point053
+    400176: Point054
+    400178: Point055
+    400180: Point056
+    400182: Point057
+    400184: Point058
+    400186: Point059
+    400188: Point060
+    400190: Point061
+    400192: Point062
+    400194: Point063
+    400196: Point064
+    400198: Point065
+    400200: Point066
+    400202: Point067
+    400204: Point068
+    400206: Point069
+    400208: Point070
+    400210: Point071
+    400212: Point072
+    400214: Point073
+    400216: Point074
+    400218: Point075
+    400220: Point076
+    400222: Point077
+    400224: Point078
+    400226: Point079
+    400228: Point080
+    400230: Point081
+    400232: Point082
+    400234: Point083
+    400236: Point084
+    400238: Point085
+    400240: Point086
+    400242: Point087
+    400244: Point088
+    400246: Point089
+    400248: Point090
+    400250: Point091
+    400252: Point092
+    400254: Point093
+    400256: Point094
+    400258: Point095
+    400260: Point096
+    400262: Point097
+    400264: Point098
+    400266: Point099
+    400268: Point100
+    400270: Point101
+    400272: Point102
+    400274: Point103
+    400276: Point104
+    400278: Point105
+    400280: Point106
+    400282: Point107
+    400284: Point108
+    400286: Point109
+    400288: Point110
+    400290: Point111
+    400292: Point112
+    400294: Point113
+    400296: Point114
+    400298: Point115
+    400300: Point116
+    400302: Point117
+    400304: Point118
+    400306: Point119
+    400308: Point120
+    400310: Point121
+    400312: Point122
+    400314: Point123
+    400316: Point124
+    400318: Point125
+    400320: Point126
+    400322: Point127
+    400324: Point128
+    400326: Point129
+    400328: Point130
+    400330: Point131
+    400332: Point132
+    400334: Point133
+    400336: Point134
+    400338: Point135
+    400340: snake
+    400342: //RootNode
+    4300000: snake
+    7400000: Slither
+    9500000: //RootNode
+    13700000: snake
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Slither
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012/Bone013/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023/Bone024/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: Line004
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point001/Point002
+        weight: 1
+      - path: Point001/Point002/Point003
+        weight: 1
+      - path: Point001/Point002/Point003/Point004
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130/Point131
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130/Point131/Point132
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130/Point131/Point132/Point133
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130/Point131/Point132/Point133/Point134
+        weight: 1
+      - path: Point001/Point002/Point003/Point004/Point005/Point006/Point007/Point008/Point009/Point010/Point011/Point012/Point013/Point014/Point015/Point016/Point017/Point018/Point019/Point020/Point021/Point022/Point023/Point024/Point025/Point026/Point027/Point028/Point029/Point030/Point031/Point032/Point033/Point034/Point035/Point036/Point037/Point038/Point039/Point040/Point041/Point042/Point043/Point044/Point045/Point046/Point047/Point048/Point049/Point050/Point051/Point052/Point053/Point054/Point055/Point056/Point057/Point058/Point059/Point060/Point061/Point062/Point063/Point064/Point065/Point066/Point067/Point068/Point069/Point070/Point071/Point072/Point073/Point074/Point075/Point076/Point077/Point078/Point079/Point080/Point081/Point082/Point083/Point084/Point085/Point086/Point087/Point088/Point089/Point090/Point091/Point092/Point093/Point094/Point095/Point096/Point097/Point098/Point099/Point100/Point101/Point102/Point103/Point104/Point105/Point106/Point107/Point108/Point109/Point110/Point111/Point112/Point113/Point114/Point115/Point116/Point117/Point118/Point119/Point120/Point121/Point122/Point123/Point124/Point125/Point126/Point127/Point128/Point129/Point130/Point131/Point132/Point133/Point134/Point135
+        weight: 1
+      - path: snake
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
